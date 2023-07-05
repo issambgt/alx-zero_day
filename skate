@@ -3,8 +3,6 @@
 echo "input commit message"
 read var
 
-echo "${var}"
-
 git add .
-git commit -m "nik zpi"
+git commit -m "${var}"
 git push 
